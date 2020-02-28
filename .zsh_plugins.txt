@@ -1,0 +1,11 @@
+# To apply new plugins
+# antibody bundle < .zsh_plugins.txt > .zsh_plugins.sh
+
+romkatv/powerlevel10k
+
+zsh-users/zsh-autosuggestions
+gretzky/auto-color-ls
+djui/alias-tips
+
+# zsh-syntax-highlighting must be last
+zsh-users/zsh-syntax-highlighting
