@@ -4,6 +4,7 @@
 romkatv/powerlevel10k
 
 zsh-users/zsh-autosuggestions
+zsh-users/zsh-completions
 gretzky/auto-color-ls
 djui/alias-tips
 
