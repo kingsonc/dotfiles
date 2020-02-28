@@ -27,9 +27,9 @@ source $ZSH/oh-my-zsh.sh
 alias lc='colorls -A --sd'
 alias lcl='colorls -lA --sd'
 
-source ~/.dotfiles/.zsh_plugins.sh
+BASEDIR="$(dirname "$(readlink -f ~/.zshrc)")"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.dotfiles/.p10k.zsh ]] || source ~/.dotfiles/.p10k.zsh
+source ${BASEDIR}/.zsh_plugins.sh
+source ${BASEDIR}/.p10k.zsh
+source ${BASEDIR}/.fzf.zsh
 
-[ -f ~/.dotfiles/.fzf.zsh ] && source ~/.dotfiles/.fzf.zsh
