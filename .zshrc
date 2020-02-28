@@ -25,6 +25,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 alias lc='colorls -A --sd'
+alias lcl='colorls -lA --sd'
 
 source ~/.dotfiles/.zsh_plugins.sh
 
