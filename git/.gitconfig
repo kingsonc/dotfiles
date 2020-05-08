@@ -3,3 +3,5 @@
 	name = Kingson Chan
 [core]
 	autocrlf = input
+[pull]
+	ff = only
