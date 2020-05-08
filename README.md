@@ -17,7 +17,8 @@ Meslo Nerd Font recommended by Powerlevel10k theme.
 - [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
 
 Ubuntu GNOME: Terminal → Preferences and click on the selected profile under Profiles. Check Custom font under Text Appearance and select MesloLGS NF Regular.
-Windows console host: *Properties → Font* and set *Font* to `MesloLGS NF`.
+
+Windows console host: Properties → Font and set Font to MesloLGS NF.
 
 #### Antibody
 Shell plugin manager
