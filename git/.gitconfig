@@ -1,8 +1,5 @@
 [user]
 	email = kingsonchan98@gmail.com
 	name = Kingson Chan
-[credential]
-	helper = store
 [core]
-	pager = cat
 	autocrlf = input

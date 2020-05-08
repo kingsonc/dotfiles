@@ -22,14 +22,14 @@ ENABLE_CORRECTION="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+# pyenv
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
-alias lc='colorls -A --sd'
-alias lcl='colorls -lA --sd'
+source $ZSH/oh-my-zsh.sh
 
 BASEDIR="$(dirname "$(readlink -f ~/.zshrc)")"
 
 source ${BASEDIR}/.zsh_plugins.sh
 source ${BASEDIR}/.p10k.zsh
-source ${BASEDIR}/.fzf.zsh
-
