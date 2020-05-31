@@ -28,6 +28,9 @@ plugins=(
   z
 )
 
+# disallow global pip installs
+export PIP_REQUIRE_VIRTUALENV=true
+
 # pyenv
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
